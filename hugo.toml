@@ -1,0 +1,17 @@
+baseURL = "https://www.mytravelsite.com/"
+languageCode = "en-us"
+title = "My Travel Site"
+theme = "ananke"
+[pagination]
+  pagerSize = 10
+
+description = "Explore travel destinations, tips, and experiences around the world."
+author = "Sajjad Zamani"
+
+# Open Graph 
+[params.opengraph]
+  image = "/images/og-image.jpg"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
