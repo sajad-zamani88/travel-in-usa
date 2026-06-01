@@ -4,8 +4,7 @@ backend:
   branch: main
   base_url: https://travel-in-usa-auth.sajadzamani88.workers.dev
   auth_endpoint: auth
-  client_id: "YOUR_GITHUB_CLIENT_ID"        # مرحله 3: از GitHub App کپی کن
-  client_secret: "4f4140ec70ff9e5679074174321b6034b2cefc10" # مرحله 3: از GitHub App کپی کن
+  
   #identity_url: https://your-site.netlify.app/.netlify/identity  # بعد از فعال‌سازی Identity
   # برای GitHub auth نیاز به Netlify Identity
 
