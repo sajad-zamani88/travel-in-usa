@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: sajad-zamani88/travel-in-usa  # آدرس GitHub repository شما
+  repo: sajad-zamani88/travel-in-usa
   branch: main
-  identity_url: https://your-site.netlify.app/.netlify/identity  # بعد از فعال‌سازی Identity
+  #identity_url: https://your-site.netlify.app/.netlify/identity  # بعد از فعال‌سازی Identity
   # برای GitHub auth نیاز به Netlify Identity
 
 media_folder: "static/images"   # فولدر ذخیره تصاویر
