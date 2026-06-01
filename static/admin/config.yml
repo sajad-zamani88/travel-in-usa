@@ -2,6 +2,8 @@ backend:
   name: github
   repo: sajad-zamani88/travel-in-usa
   branch: main
+  base_url: https://travel-in-usa-auth.sajadzamani88.workers.dev
+  auth_endpoint: auth
   #identity_url: https://your-site.netlify.app/.netlify/identity  # بعد از فعال‌سازی Identity
   # برای GitHub auth نیاز به Netlify Identity
 
