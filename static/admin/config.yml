@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: sajad-zamani88/travel-in-usa  # آدرس GitHub repository شما
+  branch: main
+  identity_url: https://your-site.netlify.app/.netlify/identity  # بعد از فعال‌سازی Identity
+  # برای GitHub auth نیاز به Netlify Identity
+
+media_folder: "static/images"   # فولدر ذخیره تصاویر
+public_folder: "/images"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Hero Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Meta Description", name: "description", widget: "string" }
+      - { label: "Meta Keywords", name: "keywords", widget: "list" }
+
+  - name: "pages"
+    label: "Pages"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Meta Description", name: "description", widget: "string" }
